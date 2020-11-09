@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Casa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-05 09:59:49 "/>
+        <attribute name="created" value="Q2FzYTtERVNLVE9QLUcxU1FGMTE7MjAyMC0xMS0wNTsiMDk6NDY6NDMgIjsyNjAz"/>
+        <attribute name="edited" value="Q2FzYTtERVNLVE9QLUcxU1FGMTE7MjAyMC0xMS0wNTsiMDk6NTk6NDkgIjsxOzI3MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cliente" type="String" array="False" size=""/>
+            <declare name="VocetemCart&#227;o" type="Boolean" array="False" size=""/>
+            <declare name="NumerodoCartao" type="String" array="False" size=""/>
+            <input variable="Cliente"/>
+            <input variable="VocetemCart&#227;o"/>
+            <if expression="VocetemCart&#227;o">
+                <then>
+                    <input variable="NumerodoCartao"/>
+                </then>
+                <else>
+                    <output expression="&quot;infelizmente voc&#234; n&#227;o pder&#225; realizar a compra&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Obrigado por compra conosco!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

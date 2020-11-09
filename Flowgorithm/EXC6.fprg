@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Casa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-05 10:48:07 "/>
+        <attribute name="created" value="Q2FzYTtERVNLVE9QLUcxU1FGMTE7MjAyMC0xMS0wNTsiMTA6MTE6MjggIjsyNTkw"/>
+        <attribute name="edited" value="Q2FzYTtERVNLVE9QLUcxU1FGMTE7MjAyMC0xMS0wNTsiMTA6NDg6MDcgIjszOzI3MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vendedor" type="String" array="False" size=""/>
+            <input variable="vendedor"/>
+            <declare name="VJANEIRO, VFEVEREIRO, VMAR&#199;O, VABRIL" type="Real" array="False" size=""/>
+            <input variable="VJANEIRO"/>
+            <input variable="VFEVEREIRO"/>
+            <input variable="VMAR&#199;O"/>
+            <input variable="VABRIL"/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <assign variable="media" expression="(VJANEIRO+VFEVEREIRO+VMAR&#199;O+VABRIL)"/>
+            <output expression="media" newline="True"/>
+            <if expression="media &gt;= 5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, vc vai receber um abono de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#233;ns, vc vai receber um abono de 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
