@@ -1,0 +1,39 @@
+
+body {
+    background: rgb(65, 71, 59);
+}
+
+#title, .subtitle, .post_title {
+    color: rgb(43, 179, 84);
+
+}
+.post_title {
+    font-size: 16pt;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    background: cornflowerblue;
+    border-radius: 10px;
+
+}
+.post {
+    background: rgb(88, 81, 81);
+    padding: 15px;
+    border: 3px solid rgb(46, 45, 45);
+    margin-bottom: 15px;
+    border-radius: 50px 60px;
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image {
+    margin-bottom: 15px;
+}
+.hea {
+    background: rgb(88, 81, 81);
+    padding: 5px;
+    border: 3px solid rgb(46, 45, 45);
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
