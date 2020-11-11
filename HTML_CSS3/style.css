@@ -1,10 +1,12 @@
 
 body {
     background: rgb(65, 71, 59);
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title {
     color: rgb(43, 179, 84);
+
 
 }
 .post_title {
@@ -36,4 +38,16 @@ body {
     border: 3px solid rgb(46, 45, 45);
     margin-bottom: 5px;
     border-radius: 50%;
+  }
+
+  ul {
+    list-style-type: square;
 }
+
+ol {
+    list-style-type: upper-roman;
+}
+ul {
+    list-style-type:  "\1F44D";
+}
+
