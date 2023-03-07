@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 # Livro de Receitas :man_cook:
 
 Olá! Bem vindo ao meu livro de receitas:wave:
@@ -8,7 +9,7 @@ Olá! Bem vindo ao meu livro de receitas:wave:
 
 - Pavê
 
-<!DOCTYPE html>
+
 <html>
   <head>
     <title>Page Title</title>
